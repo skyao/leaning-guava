@@ -14,7 +14,7 @@ module.exports = function (grunt) {
                 input: "./",
                 title: "Leaning Guava",
                 description: "Google Guava学习笔记",
-                github: "skyao/leaning-grpc"
+                github: "skyao/leaning-guava"
             }
         },
         'gh-pages': {
