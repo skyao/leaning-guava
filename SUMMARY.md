@@ -8,3 +8,6 @@ bui# Summary
 	* [类CacheStatus](cache/class_CacheStatus.md)
 	* [类AbstractCache](cache/class_AbstractCache.md)
 	* [LongAddable相关类](cache/class_LongAddable.md)
+	* [类CacheBuilder](cache/class_CacheBuilder.md)
+	* [类CacheBuilderSpec](cache/class_CacheBuilderSpec.md)
+	* [类ForwardingCache](cache/class_ForwardingCache.md)
