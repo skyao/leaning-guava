@@ -12,3 +12,6 @@ bui# Summary
         * [类CacheBuilder](cache/code/class_CacheBuilder.md)
         * [类CacheBuilderSpec](cache/code/class_CacheBuilderSpec.md)
         * [类ForwardingCache](cache/code/class_ForwardingCache.md)
+        * [类LocalCache](cache/code/localcache/class_LocalCache.md)
+        	* [类LocalManualCache](cache/code/localcache/class_LocalManualCache.md)
+        	* [类LocalLoadingCache](cache/code/localcache/class_LocalLoadingCache.md)

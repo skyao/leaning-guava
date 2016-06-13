@@ -58,7 +58,7 @@ void put(K key, V value);
 ### putAll()
 
 ```java
-void put(K key, V value);
+void putAll(Map<? extends K,? extends V> m);;
 ```
 
 将指定map中的所有映射复制到缓存中。这个方法调用等同于为指定map中的每个key/value映射调用put(k, v)方法。

@@ -76,7 +76,7 @@ void refresh(K key);
 
 如果其他线程当前正在装载这个key的值，直接返回不做任何事情。
 
-### refresh()方法
+### asMap()方法
 
 ```java
 ConcurrentMap<K, V> asMap();

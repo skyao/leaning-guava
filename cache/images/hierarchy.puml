@@ -1,0 +1,40 @@
+@startuml
+
+interface Cache<K, V> {
+    V getIfPresent(Object key)
+    V get(K key, Callable<? extends V> valueLoader)
+    ImmutableMap<K, V> getAllPresent(Iterable<?> keys)
+    void put(K key, V value)
+    void putAll(Map<? extends K,? extends V> m)
+    void invalidate(Object key)
+    void invalidateAll(Iterable<?> keys)
+    void invalidateAll()
+    CacheStats stats()
+    ConcurrentMap<K, V> asMap()
+    void cleanUp()
+}
+
+interface LoadingCache<K, V> {
+    V get(K key)
+    V getUnchecked(K key)
+    ImmutableMap<K, V> getAll(Iterable<? extends K> keys)
+    V apply(K key)
+    void refresh(K key)
+}
+
+abstract class AbstractCache {
+}
+
+abstract class AbstractLoadingCache {
+}
+
+class LocalLoadingCache {
+}
+
+
+Cache <|-right- LoadingCache
+Cache <|-- AbstractCache
+LoadingCache <|-- AbstractLoadingCache
+AbstractLoadingCache <|-- LocalLoadingCache
+
+@enduml
