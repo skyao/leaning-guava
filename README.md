@@ -1,17 +1,11 @@
-Grpc学习笔记
-===========
+# Guava 学习笔记
 
-> 注: 如果你看到的是github的源代码, 请点击 [这里](http://skyao.github.io/leaning-guava/) 查看html内容.
+Guava 是 Google 开源的一个 Java 基础类库。
 
-# 介绍
+这是一份 Guava 学习笔记, 记录 Guava 的学习过程.
 
-google guava.
+笔记发布于 gitbook，请点击下面的链接阅读:
 
-# 章节内容
+https://skyao.gitbooks.io/leaning-guava/
 
-* [Google Guava 介绍](introduction/index.md)
-    * [资料收集整理](introduction/information.md)
-* [反射](reflect/index.md)
-
-内容陆续添加中......
 
