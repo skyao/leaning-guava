@@ -22,7 +22,7 @@
   ],
   "pluginsConfig": {
     "edit-link": {
-        "base": "https://github.com/skyao/leaning-guava/edit/master",
+        "base": "https://github.com/skyao/learning-guava/edit/master",
         "label": "Edit"
     }
   },
